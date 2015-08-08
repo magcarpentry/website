@@ -1,0 +1,112 @@
+body
+					{
+					background-color: #ffffff;
+					color: #666666;
+					margin: 10px;
+					font-family: Arial, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+					}
+					
+#container
+					{
+					width: 920px;
+					margin-left: auto;
+					margin-right: auto;
+					}
+					
+#left
+					{
+					float: left;
+					width: 382px;
+					padding: 4px;
+					font-size: 0.7em;
+					}
+					
+#right
+					{
+					float: right;
+					width: 500px;
+					padding: 15px;
+					}
+					
+#testimonials
+					{
+					font-size: 1.2em;
+					font-family: Times;
+					margin-top: 50px;
+					}
+					
+h1
+					{
+					font-size: 1.95em;
+					}
+					
+a.menu:focus, a.menu:link, a.menu:visited 
+					{
+					background:  #582803;
+					color : #fff;
+					text-decoration: none;
+					display: block;
+					width: 120px;
+					float: left;
+					height: 20px;
+					line-height: 20px;
+					text-align: center;
+					margin: 2px;
+					}
+a.menu:hover
+					{
+					background: #fff;
+					color :  #763605;
+					text-decoration: none;
+					display: block;
+					width: 120px;
+					float: left;
+					height: 20px;
+					line-height: 20px;
+					text-align: center;
+					margin: 2px;
+					}
+					
+a:focus, a:link, a:visited 
+					{
+					background:  none;
+					color : #763605;
+					text-decoration: none;
+					}
+a:hover
+					{
+					background: #fff;
+					color :  #763605;
+					}
+
+.form p{
+width: 500px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 200px; /*width of left column containing the label elements*/
+}
+
+.form label{
+float: left;
+margin-left: -200px; /*width of left column*/
+width: 200px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.form input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+.form textarea{
+width: 250px;
+height: 100px;
+}
+
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+
+* html .threepxfix{
+margin-left: 3px;
+}	
