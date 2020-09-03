@@ -42,11 +42,11 @@ h1
 
 a.menu:focus, a.menu:link, a.menu:visited 
 {
-  background:  #4d2302;
+  background:  #998473;
   color : #fff;
   text-decoration: none;
   display: block;
-  width: 115px;
+  width: 116px;
   float: left;
   height: 18px;
   line-height: 20px;
@@ -59,7 +59,7 @@ a.menu:hover
   color :  #998473;
   text-decoration: none;
   display: block;
-  width: 115px;
+  width: 116px;
   float: left;
   height: 18px;
   line-height: 20px;
