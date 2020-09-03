@@ -46,7 +46,7 @@ a.menu:focus, a.menu:link, a.menu:visited
   color : #fff;
   text-decoration: none;
   display: block;
-  width: 118px;
+  width: 120px;
   float: left;
   height: 18px;
   line-height: 20px;
@@ -56,10 +56,10 @@ a.menu:focus, a.menu:link, a.menu:visited
 a.menu:hover
 {
   background: #fff;
-  color :  #998473;
+  color :  #4d2302;
   text-decoration: none;
   display: block;
-  width: 118px;
+  width: 120px;
   float: left;
   height: 18px;
   line-height: 20px;
