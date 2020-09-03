@@ -46,7 +46,7 @@ a.menu:focus, a.menu:link, a.menu:visited
 					color : #fff;
 					text-decoration: none;
 					display: block;
-					width: 120px;
+					width: 100px;
 					float: left;
 					height: 20px;
 					line-height: 20px;
@@ -59,7 +59,7 @@ a.menu:hover
 					color :  #763605;
 					text-decoration: none;
 					display: block;
-					width: 120px;
+					width: 100px;
 					float: left;
 					height: 20px;
 					line-height: 20px;
@@ -89,7 +89,7 @@ padding-left: 200px; /*width of left column containing the label elements*/
 
 .form label{
 float: left;
-margin-left: -200px; /*width of left column*/
+margin-left: -100px; /*width of left column*/
 width: 200px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
 }
 
