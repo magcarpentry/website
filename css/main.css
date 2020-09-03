@@ -31,7 +31,7 @@ body
 #testimonials
 {
   font-size: 1.2em;
-  font-family: Times;
+  font-family: Arial;
   margin-top: 50px;
 }
 
@@ -59,7 +59,7 @@ a.menu:hover
   color :  #763605;
   text-decoration: none;
   display: block;
-  width: 120px;
+  width: 200px;
   float: left;
   height: 20px;
   line-height: 20px;
