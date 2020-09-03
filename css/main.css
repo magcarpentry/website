@@ -46,9 +46,9 @@ a.menu:focus, a.menu:link, a.menu:visited
   color : #fff;
   text-decoration: none;
   display: block;
-  width: 100px;
+  width: 150px;
   float: left;
-  height: 20px;
+  height: 15px;
   line-height: 20px;
   text-align: center;
   margin: 2px;
@@ -59,9 +59,9 @@ a.menu:hover
   color :  #763605;
   text-decoration: none;
   display: block;
-  width: 100px;
+  width: 150px;
   float: left;
-  height: 20px;
+  height: 15px;
   line-height: 20px;
   text-align: center;
   margin: 2px;
